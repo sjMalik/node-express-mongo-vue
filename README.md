@@ -1,7 +1,7 @@
 # node-express-mongo-vue
 
 ## morgan
-Create a new morgan logger middleware function using the given format and options. The format argument may be a string of a predefined name
+HTTP request logger middleware for node.js. It creates a new morgan logger middleware function using the given format and options. The format argument may be a string of a predefined name
 ### Options
 Morgan accepts these properties in the options object.
 1. immediate : Write log line on request instead of response. This means that a requests will be logged even if the server crashes, but data from the response (like the response code, content length, etc.) cannot be logged.
